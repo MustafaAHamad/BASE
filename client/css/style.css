@@ -1,10 +1,93 @@
 html:not(.style-scope) {
-	
+	--primary-background-color: #ffffff;
+	--secondary-background-color: #f2f2f2;
+	--primary-text-color: #061025;
+	--secondary-text-color: #b1b1b2;
 }
 
 body {
 	min-width: 20rem;
 	margin: 0;
 	padding: 0;
+	background-color: var(--primary-background-color);
 	overflow-y: scroll;
+}
+
+body {
+	font-family: sans-serif !important;
+}
+
+article, aside, footer, header, nav, section {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6, a, p, span {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	font: inherit;
+	word-wrap: break-word;
+	text-decoration: none;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+/* INDEX PAGE */
+
+.vJg9iTy {
+	display: flex;
+	height: 350px;
+	justify-content: center;
+	align-items: center;
+}
+
+.vJg9iTy .vBnjKc2 {
+	position: relative;
+	width: 240px;
+	height: 300px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.vJg9iTy .kFmp8uE {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.iTyEc7b {
+	color: #ffffff;
+	text-shadow: 0 0 5px black;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-size: 1.25rem;
+	margin: 5px 0;
+}
+
+.mGkr3Sz {
+	width: 80%;
+	padding: 15px;
+	color: #061025;
+	background-color: #f6e194;
+	border: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 0.8rem;
+	letter-spacing: 0.5px;
+}
+
+.kFjp9Ac {
+	background-image: url(../img/haiti.jpg);
 }
