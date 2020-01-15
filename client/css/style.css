@@ -48,14 +48,62 @@ li {
 	align-items: center;
 }
 
+.vJg9iTy .kGuT7cE {
+	display: flex !important;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center !important;
+	overflow: hidden !important;
+	overflow-x: scroll !important;
+}
+
 .vJg9iTy .vBnjKc2 {
 	position: relative;
-	width: 240px;
-	height: 300px;
+	min-width: 200px !important;
+	height: 260px;
+	margin: 0 5px;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	overflow: hidden;
+	transition: all 0.3s;
+	cursor: pointer;
+}
+
+.vJg9iTy .vBnjKc2:before {
+	display: none;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.vJg9iTy .kCr2iQv {
+	height: 300px;
+	box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.18);
+}
+
+.vJg9iTy .kFjp9Ac:before {
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(255, 185, 98, 0.65));
+}
+
+.vJg9iTy .vjF8cWb:before {
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(98, 183, 255, 0.65));
+}
+
+.vJg9iTy .yBwCz7r:before {
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 98, 221, 0.65));
+}
+
+.vJg9iTy .gY4oQc2:before {
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 0, 0, 0.65));
+}
+
+.vJg9iTy .c7hGfrA:before {
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 255, 114, 0.65));
 }
 
 .vJg9iTy .kFmp8uE {
@@ -66,28 +114,47 @@ li {
 	text-align: center;
 }
 
-.iTyEc7b {
+.vJg9iTy .iTyEc7b {
 	color: #ffffff;
-	text-shadow: 0 0 5px black;
+	text-shadow: 0 0 5px rgba(0, 0, 0, 0.41);
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: 2px;
-	font-size: 1.25rem;
+	font-size: 1.15rem;
 	margin: 5px 0;
 }
 
-.mGkr3Sz {
+.vJg9iTy .mGkr3Sz {
+	display: block;
 	width: 80%;
-	padding: 15px;
+	margin: 0 auto;
+	padding: 10px 0;
 	color: #061025;
 	background-color: #f6e194;
 	border: none;
 	text-transform: uppercase;
 	font-weight: bold;
-	font-size: 0.8rem;
+	font-size: 0.9rem;
 	letter-spacing: 0.5px;
+	outline: none;
 }
 
-.kFjp9Ac {
+.vJg9iTy .kFjp9Ac {
 	background-image: url(../img/haiti.jpg);
+}
+
+.vJg9iTy .vjF8cWb {
+	background-image: url(../img/china.jpg);
+}
+
+.vJg9iTy .yBwCz7r {
+	background-image: url(../img/britain.jpg);
+}
+
+.vJg9iTy .gY4oQc2 {
+	background-image: url(../img/india.jpg);
+}
+
+.vJg9iTy .c7hGfrA {
+	background-image: url(../img/coldwar.jpg);
 }
