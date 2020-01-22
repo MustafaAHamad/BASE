@@ -58,6 +58,10 @@ li {
 	overflow-x: scroll !important;
 }
 
+.vJg9iTy .kGuT7cE::-webkit-scrollbar {
+    display: none;
+}
+
 .vJg9iTy .vBnjKc2 {
 	position: relative;
 	min-width: 200px !important;
@@ -72,13 +76,14 @@ li {
 }
 
 .vJg9iTy .vBnjKc2:before {
-	display: none;
+	/*display: none;*/
 	content: "";
 	position: absolute;
 	top: 0;
 	left: 0;
 	right: 0;
 	bottom: 0;
+	opacity: 0.65;
 }
 
 .vJg9iTy .kCr2iQv {
@@ -157,4 +162,9 @@ li {
 
 .vJg9iTy .c7hGfrA {
 	background-image: url(../img/coldwar.jpg);
+}
+
+#jFhi9wC .jGh8Pcw {
+
+margin: 0 5rem;
 }
